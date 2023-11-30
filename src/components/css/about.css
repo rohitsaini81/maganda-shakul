@@ -1,0 +1,20 @@
+.about {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+   }
+   
+   .about h1 {
+    font-size: 28px;
+    color: #333;
+   }
+   
+   .about h2 {
+    font-size: 24px;
+    color: #777;
+   }
+   
+   .about p {
+    font-size: 18px;
+    color: #333;
+   }

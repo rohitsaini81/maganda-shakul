@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .index .text-wrapper {
+    color: #ffffff;
+    font-family: "DM Sans", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-right: 20px; /* Adjust spacing between text and group */
+  }
+  
+  .index .group {
+    display: flex;
+    height: 23px;
+    width: 339px;
+  }
+  
+  .index .text-wrapper-2,
+  .index .text-wrapper-3,
+  .index .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "DM Sans", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 20px; /* Adjust spacing between items in the group */
+  }
+  
+
