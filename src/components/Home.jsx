@@ -2,25 +2,21 @@ import React from 'react';
 import Image from '../nav/Image';
 import ReactPlayer from 'react-player';
 import './css/home.css';
-import VideoPlayer from 'react-video-js-player';
+// import VideoPlayer from 'react-video-js-player';
 const videoSource = 'https://auto-system.onrender.com/api/9'
 
 
 export default function Home() {
 
   return (
-    <>
-
-
+    <div className='home'>
       <ReactPlayer
-          className="video-background"
+          className="react-player"
           url={videoSource}
-          playing={true}
-          loop={true}
+          // playing={true}
+          // loop={true}
           // muted={true}
           controls={true}
-          width="100%"
-          height="100%"
         />
         <div className="index">
           <div className="overlap">
@@ -48,6 +44,6 @@ export default function Home() {
           <Image />
         </div>
       <hr />
-    </>
+    </div>
   );
 }

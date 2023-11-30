@@ -29,11 +29,6 @@
     background-color: #0000000c;
 
 }
-img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}
 
 .hi-i-am {
     color: #000000;
@@ -82,13 +77,30 @@ img{
     font-size: 12px;
     font-weight: 500;
 }
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
 
 /* video goes here */
 
-.video-background{
-    position:'absolute';
-    top: 0;
-    left: 0;
-    z-index: -1;
+
+.react-player>video{
+    /* object-fit: contain; */
+    width: 100%;
+    height: 100%;
+    border: solid 5px red;
 }
 
+.react-player{
+    border: solid 5px rebeccapurple;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
