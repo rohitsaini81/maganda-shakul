@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 import Nav from "./nav/Nav";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,16 +10,14 @@ import Bio from "./components/Bio";
 
 export const App = () => {
   return (
-    <div className="index">
       <div className="div">
         <Nav />
         <Home />
-        <About />
+        {/* <About />
         <Skills />
         <Contact />
         <Bio />
-        <Info />
+        <Info /> */}
       </div>
-    </div>
   );
 };
