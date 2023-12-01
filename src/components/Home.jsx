@@ -13,8 +13,8 @@ export default function Home() {
       <ReactPlayer
         className="react-player"
         url={videoSource}
-        playing={true}
-        loop={true}
+        // playing={true}
+        // loop={true}
         // muted={true}
         // controls={true}
       />
