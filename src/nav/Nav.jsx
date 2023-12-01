@@ -6,8 +6,8 @@ export default function Nav() {
       <div className="text-wrapper">Maganda</div>
       <div className="group">
         <div className="text-wrapper-2">About me</div>
-        <div className="text-wrapper-3">Services</div>
-        <div className="text-wrapper-4">Contact me</div>
+        <div className="text-wrapper-2">Services</div>
+        <div className="text-wrapper-2">Contact me</div>
       </div>
     </div>
   );

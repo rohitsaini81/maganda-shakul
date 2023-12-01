@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  position: fixed !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,6 +7,7 @@
   padding: 20px;
   background-color: rgba(255, 250, 250, 0.277);
 }
+
 
 .text-wrapper {
   /* background-color: #000000; */
@@ -22,9 +23,7 @@
   display: flex;
 }
 
-.navbar .text-wrapper-2,
-.navbar .text-wrapper-3,
-.navbar .text-wrapper-4 {
+.group .text-wrapper-2 {
   color: #000000;
   font-family: "DM Sans", Helvetica;
   font-size: 18px;

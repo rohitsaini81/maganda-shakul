@@ -9,16 +9,8 @@ const videoSource = 'https://auto-system.onrender.com/api/9'
 export default function Home() {
 
   return (
+    <section>
     <div className='home'>
-      <ReactPlayer
-        className="react-player"
-        url={videoSource}
-        // playing={true}
-        loop={true}
-        muted={true}
-        // controls={true}
-      />
-
       <div className="overlap">
         <div className="group-2">
           <div className="hi-i-am">
@@ -34,7 +26,7 @@ export default function Home() {
               </a>
             </div>
             <div className="div-wrapper flex">
-              <a className="text-wrapper-6" href="#">
+              <a className="custom-btn" href="#">
                 Learn More
               </a>
             </div>
@@ -45,6 +37,15 @@ export default function Home() {
         <img src={profile} alt="its me" className="img" />
       </div>
       <hr />
-    </div>
+      </div>
+      <ReactPlayer
+        className="react-player"
+        url={videoSource}
+        playing={true}
+        loop={true}
+        muted={true}
+        // controls={true}
+      />
+    </section>
   );
 }
