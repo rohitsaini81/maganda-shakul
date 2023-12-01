@@ -1,7 +1,7 @@
 import React from 'react';
-import Image from '../nav/Image';
 import ReactPlayer from 'react-player';
 import './css/home.css';
+import { profile } from './new/Images';
 // import VideoPlayer from 'react-video-js-player';
 const videoSource = 'https://auto-system.onrender.com/api/9'
 
@@ -14,8 +14,8 @@ export default function Home() {
         className="react-player"
         url={videoSource}
         // playing={true}
-        // loop={true}
-        // muted={true}
+        loop={true}
+        muted={true}
         // controls={true}
       />
 
@@ -41,7 +41,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Image />
+      <div className="wrapper">
+        <img src={profile} alt="its me" className="img" />
+      </div>
       <hr />
     </div>
   );

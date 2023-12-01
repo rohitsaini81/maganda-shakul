@@ -4,7 +4,8 @@
     width: 100%;
 }
 
-.index {
+  .home{
+    flex-direction: column-reverse;
     display: flex;
 }
 
@@ -19,7 +20,9 @@
     /* background-color: #0000000c; */
 }
 
-.mywrapperclass {
+.wrapper {
+    position: absolute;
+    border: 5px solid red;
     padding: 2% 2%;
     display: flex;
     flex-direction: column;
@@ -56,8 +59,8 @@
     display: flex;
 }
 
-.index .overlap-group,
-.index .div-wrapper {
+  .overlap-group,
+  .div-wrapper {
 
     justify-content: center;
     align-items: center;
@@ -67,14 +70,14 @@
     /* Adjust the width as needed */
 }
 
-.index .div-wrapper {
+  .div-wrapper {
     width: 150px;
     /* Adjust the width as needed */
     background-color: #171717;
 }
 
-.index .text-wrapper-6,
-.index .text-wrapper-7 {
+  .text-wrapper-6,
+  .text-wrapper-7 {
     color: #ffffff;
     font-family: "DM Sans", Helvetica;
     font-size: 12px;
