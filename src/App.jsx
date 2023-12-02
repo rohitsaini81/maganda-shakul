@@ -8,20 +8,26 @@ import Contact from "./components/Contact";
 import Info from "./components/Info";
 import Bio from "./components/Bio";
 import Gallery from "./components/Gallery";
+import Contactt from "./components/Contactt";
 
 export const App = () => {
+
+
+
+
   return (
-      <div className="div">
-        <Nav />
-        <Home />
-        <About />
-        <Gallery />
-        {/* <About />
+    <div className="div">
+      <Nav />
+      <Home />
+      <About />
+      <Gallery />
+      {/* <About />
         <Skills />
         <Contact />
         <Bio />
         <Info /> */}
+        <Contactt />
 
-      </div>
+    </div>
   );
 };

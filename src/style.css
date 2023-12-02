@@ -32,7 +32,9 @@
   top: 0;
   width: 222px;
 }
-
+iframe{
+  display: none!important;
+}
 .frame {
   height: 233px;
   left: 0;

@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 import './css/home.css';
 import { profile } from './new/Images';
 // import VideoPlayer from 'react-video-js-player';
-const videoSource = 'https://auto-system.onrender.com/api/9'
+const videoSource = 'https://media.istockphoto.com/id/1354010908/video/snow-falling-in-a-forest-in-front-of-the-gold-sun.mp4?s=mp4-640x640-is&k=20&c=LnBCMAhIK0600E1sOCYLW8TkZ8NgUc0Kpntpi3VNMN4='
 
 
 export default function Home() {
@@ -16,12 +16,12 @@ export default function Home() {
           <div className="hi-i-am">
             Hi, I am
             <br />
-            Maganda Shakul
+            Maganda Shakul 
           </div>
           <div className="text-wrapper-5">Musician, Artist, Designer</div>
           <div className="overlap-group-wrapper">
-            <div className="overlap-group flex">
-              <a className="text-wrapper-6" href="#">
+            <div className="custom-border-btn overlap-group flex">
+              <a className="btn" href="#">
                 Contact Me....
               </a>
             </div>

@@ -1,3 +1,4 @@
+import treeleaf from '../../photos/treeleaf.jpg'
 import images from '../../photos/darkphoto.webp'
 import profile from '../../photos/profilemaganda.jpg'
 import edward from './images/edward-unsplash-blur.jpg'
@@ -13,4 +14,4 @@ import soundtrap from './images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg'
 
 const allimages = [images,edward,nainoa,nicholas,pexelalexander,abstralofficial,joecalih,soundtrap]
 export default allimages 
-export {images,profile,edward,nainoa,nicholas,pexelalexander,abstralofficial,joecalih,soundtrap}
+export {treeleaf,images,profile,edward,nainoa,nicholas,pexelalexander,abstralofficial,joecalih,soundtrap}

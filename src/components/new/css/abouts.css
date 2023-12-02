@@ -1,3 +1,32 @@
+.section-animation{
+  animation: section-active 2s ease-in;
+  animation-delay: 2s;
+  border: 1px solid red;
+  /* transition: all 1s ease-in-out; */
+  
+
+ }
+ @keyframes section-active{
+  0%{
+      opacity: 0;
+      transform: translateY(100px);
+  border: 5px solid red;
+
+  }
+  50%{
+    opacity: 0.5;
+  border: 5px solid rgb(0, 140, 255);
+
+    transform: translateY(50px);
+}
+  100%{
+      opacity: 1;
+  border: 5px solid rgb(0, 0, 0);
+
+      transform: translateY(0px);
+  }
+  
+ }
 /*
 
 TemplateMo 583 Festava Live
@@ -295,7 +324,6 @@ https://templatemo.com/tm-583-festava-live
   .custom-btn {
     background: var(--custom-btn-bg-color);
     border: 2px solid transparent;
-    border-radius: var(--border-radius-large);
     color: var(--white-color);
     font-size: var(--btn-font-size);
     font-weight: var(--font-weight-bold);
@@ -310,11 +338,16 @@ https://templatemo.com/tm-583-festava-live
   }
   
   .custom-border-btn {
-    background: transparent;
-    border: 2px solid var(--custom-btn-bg-color);
+    background: var(--custom-btn-bg-hover-color);
     color: var(--custom-btn-bg-color);
   }
-  
+  a{
+    text-decoration: none !important;
+  }
+.my-btn:hover{
+  color: rgba(71, 71, 71, 0.300) !important;
+  text-decoration: underline !important;
+}
 
   .custom-border-btn:hover {
     background: var(--custom-btn-bg-hover-color);
@@ -805,6 +838,7 @@ https://templatemo.com/tm-583-festava-live
       transform: rotate(360deg);
     }
   }
+  
   
   
   /*---------------------------------------
