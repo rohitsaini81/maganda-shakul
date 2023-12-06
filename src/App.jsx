@@ -10,6 +10,7 @@ import Bio from "./components/Bio";
 import Gallery from "./components/Gallery";
 import Contactt from "./components/Contactt";
 
+
 export const App = () => {
 
 
@@ -21,12 +22,12 @@ export const App = () => {
       <Home />
       <About />
       <Gallery />
-      {/* <About />
-        <Skills />
+      {/* <About /> */}
+        {/* <Skills /> */}
         <Contact />
-        <Bio />
-        <Info /> */}
-        <Contactt />
+        {/* <Bio /> */}
+        {/* <Info /> */}
+        {/* <Contactt /> */}
 
     </div>
   );

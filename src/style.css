@@ -1,3 +1,29 @@
+/* Track */
+::-webkit-scrollbar {
+  width: 5px; /* Set width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set color of the scrollbar handle */
+  /* border-radius: 6px;  */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Set color of the scrollbar handle on hover */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #f1f1f1; /* Set color of the scrollbar track on hover */
+}
+
+/* Handle when dragging */
+::-webkit-scrollbar-thumb:active {
+  background-color: #555; /* Set color of the scrollbar handle when dragging */
+}
+
 .text-wrapper-8 {
   color: #ffffff;
   font-family: "DM Sans", Helvetica;
