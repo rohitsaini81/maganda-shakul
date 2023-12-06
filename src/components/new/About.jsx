@@ -3,6 +3,7 @@ import './css/abouts.css'
 import './css/bootstrap.min.css'
 // import './css/bootstrap-icons.css'
 import { images } from './Images'
+import data from '../../magandabio';
 
 export default function About() {
 
@@ -44,19 +45,13 @@ export default function About() {
                             <h2 className="text-white mb-4">About</h2>
 
                             <p className="text-white">
-                                my name is Rohit Saini and I am a DJ and producer. I have been playing music for 10 years and I
-                                have been producing for 5 years. I have played in many clubs and festivals. I have
-                                played in many clubs and festivals. I have played in many clubs and festivals. I have
-
+                              {data.introduction}
                             </p>
 
                             <h6 className="text-white mt-4">Once in Lifetime Experience</h6>
 
                             <p className="text-white">
-                                I have played in many clubs and festivals. I have played in many clubs and festivals. I
-                                have played in many clubs and festivals. I have played in many clubs and festivals. I
-                                have played in many clubs and festivals. I have played in many clubs and festivals. I
-                                I have played in many clubs and festivals.
+                                {data.bio}
                             </p>
 
                             <h6 className="text-white mt-4">Whole Night Party</h6>
