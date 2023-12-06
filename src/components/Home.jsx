@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 import './css/home.css';
 import { profile } from './new/Images';
 // import VideoPlayer from 'react-video-js-player';
-const videoSource = 'https://media.istockphoto.com/id/1354010908/video/snow-falling-in-a-forest-in-front-of-the-gold-sun.mp4?s=mp4-640x640-is&k=20&c=LnBCMAhIK0600E1sOCYLW8TkZ8NgUc0Kpntpi3VNMN4='
+const videoSource = 'https://auto-system.onrender.com/files/video1.mp4'
 
 
 export default function Home() {

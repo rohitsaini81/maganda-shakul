@@ -54,9 +54,9 @@ export default function About() {
                                 {data.bio}
                             </p>
 
-                            <h6 className="text-white mt-4">Whole Night Party</h6>
+                            <h6 className="text-white mt-4">Me</h6>
 
-                            <p className="text-white">Please tell your friends about. Thank you.</p>
+                            <p className="text-white">{data.title}</p>
                         </div>
                     </div>
 
