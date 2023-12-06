@@ -2,47 +2,47 @@ import React from 'react'
 import {joecalih, abstralofficial, soundtrap} from './new/Images.jsx'
 export default function Gallery() {
     return (
-        <section class="artists-section section-padding" id="section_3">
-            <div class="container">
-                <div class="row justify-content-center">
+        <section className="artists-section section-padding" id="section_3">
+            <div className="container">
+                <div className="row justify-content-center">
 
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4">Gallery</h2>
+                    <div className="col-12 text-center">
+                        <h2 className="mb-4">Gallery</h2>
                     </div>
 
-                    <div class="col-lg-5 col-12">
-                        <div class="artists-thumb">
-                            <div class="artists-image-wrap">
+                    <div className="col-lg-5 col-12">
+                        <div className="artists-thumb">
+                            <div className="artists-image-wrap">
                                 <img src={joecalih}
-                                    class="artists-image img-fluid" />
+                                    className="artists-image img-fluid" />
                             </div>
 
-                            <div class="artists-hover">
+                            <div className="artists-hover">
 
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-12">
-                        <div class="artists-thumb">
-                            <div class="artists-image-wrap">
+                    <div className="col-lg-5 col-12">
+                        <div className="artists-thumb">
+                            <div className="artists-image-wrap">
                                 <img src={abstralofficial}
-                                    class="artists-image img-fluid" />
+                                    className="artists-image img-fluid" />
                             </div>
 
-                            <div class="artists-hover">
+                            <div className="artists-hover">
 
                             </div>
                         </div>
 
-                        <div class="artists-thumb">
+                        <div className="artists-thumb">
                             <img src={soundtrap}
-                                class="artists-image img-fluid" />
+                                className="artists-image img-fluid" />
 
-                            <div class="artists-hover">
+                            <div className="artists-hover">
 
 
-                                <p class="mb-0">
+                                <p className="mb-0">
                                     <strong>Youtube Channel:</strong>
                                     <a href="#">Bruno Official</a>
                                 </p>

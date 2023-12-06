@@ -102,7 +102,7 @@ width: 0px !important;
 height: 0px !important;
 }
 .react-player>video {
-    position: fixed;
+    position: absolute;
     z-index: -1;
     top: 0;
     left: 0;

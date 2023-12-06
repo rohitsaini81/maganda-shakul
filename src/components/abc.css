@@ -1,4 +1,4 @@
-svg {
+.svg {
 	height: 23rem;
 	margin-right: 4rem;
 }
@@ -40,7 +40,7 @@ svg {
   }
 }
 
-.container {
+.container1 {
 	height: 100vh;
 }
 

@@ -35,39 +35,39 @@ export default function About() {
 
 
     return (
-        <section class="section-animation about-section section-padding" id="about">
-            <div class="container">
-                <div class="row">
+        <section className="section-animation about-section section-padding" id="about">
+            <div className="container">
+                <div className="row">
 
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
-                        <div class="services-info">
-                            <h2 class="text-white mb-4">About</h2>
+                    <div className="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                        <div className="services-info">
+                            <h2 className="text-white mb-4">About</h2>
 
-                            <p class="text-white">
+                            <p className="text-white">
                                 my name is Rohit Saini and I am a DJ and producer. I have been playing music for 10 years and I
                                 have been producing for 5 years. I have played in many clubs and festivals. I have
                                 played in many clubs and festivals. I have played in many clubs and festivals. I have
 
                             </p>
 
-                            <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
+                            <h6 className="text-white mt-4">Once in Lifetime Experience</h6>
 
-                            <p class="text-white">
+                            <p className="text-white">
                                 I have played in many clubs and festivals. I have played in many clubs and festivals. I
                                 have played in many clubs and festivals. I have played in many clubs and festivals. I
                                 have played in many clubs and festivals. I have played in many clubs and festivals. I
                                 I have played in many clubs and festivals.
                             </p>
 
-                            <h6 class="text-white mt-4">Whole Night Party</h6>
+                            <h6 className="text-white mt-4">Whole Night Party</h6>
 
-                            <p class="text-white">Please tell your friends about. Thank you.</p>
+                            <p className="text-white">Please tell your friends about. Thank you.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12">
-                        <div class="about-text-wrap">
-                            <img src={images} class="about-image img-fluid" />
+                    <div className="col-lg-6 col-12">
+                        <div className="about-text-wrap">
+                            <img src={images} className="about-image img-fluid" />
 
                             
                         </div>
