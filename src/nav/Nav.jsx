@@ -21,16 +21,18 @@ export default function Nav() {
     };
   }, []);
 
-  const backgroundImageStyle = {
-    color: isAtBottom ? 'transparent' :`hsl(${scrollPercentage}, 50%, 50%)`, };
+  const fontcl = {
+    color: isAtBottom ? 'transparent' :`hsl(${scrollPercentage}, 50%, 50%)`, 
+  };
+  const navbg = {backgroundColor: isAtBottom ? 'transparent' :`rgba(255, 250, 250, 0.277)`}
 
 
   return (
-    <div className="navbar">
-      <div className="text-wrapper" style={backgroundImageStyle}>Maganda</div>
+    <div className="navbar" style={navbg}>
+      <a href="#home"><div className="text-wrapper" style={fontcl}>Maganda</div></a>
       <div className="group">
         <a href='#about'><div className="text-wrapper-2 my-btn">About me</div></a>
-        <a href='#services'><div className="text-wrapper-2 my-btn">Services</div></a>
+        <a href='#section_3'><div className="text-wrapper-2 my-btn">Gallery</div></a>
         <a href='#contacts'><div className="text-wrapper-2 my-btn">Contact me</div></a>
       </div>
     </div>

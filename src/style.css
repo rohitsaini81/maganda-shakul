@@ -23,10 +23,7 @@
 ::-webkit-scrollbar-thumb:active {
   background-color: #555; /* Set color of the scrollbar handle when dragging */
 }
-body{
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
-}
+
 .text-wrapper-8 {
   color: #ffffff;
   font-family: "DM Sans", Helvetica;
@@ -61,7 +58,7 @@ body{
   top: 0;
   width: 222px;
 }
-iframe{
+div>iframe{
   display: none!important;
 }
 .frame {

@@ -9,7 +9,7 @@ const videoSource = 'https://auto-system.onrender.com/files/video1.mp4'
 export default function Home() {
 
   return (
-    <section>
+    <section id='home'>
     <div className='home'>
       <div className="overlap">
         <div className="group-2">

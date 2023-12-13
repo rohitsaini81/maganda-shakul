@@ -1,7 +1,7 @@
 .section-animation{
   animation: section-active 2s ease-in;
   animation-delay: 2s;
-  border: 1px solid red;
+  animation-fill-mode: forwards;
   /* transition: all 1s ease-in-out; */
   
 
@@ -10,7 +10,7 @@
   0%{
       opacity: 0;
       transform: translateY(100px);
-  border: 5px solid red;
+
 
   }
   50%{
@@ -21,8 +21,6 @@
 }
   100%{
       opacity: 1;
-  border: 5px solid rgb(0, 0, 0);
-
       transform: translateY(0px);
   }
   
@@ -429,8 +427,8 @@ https://templatemo.com/tm-583-festava-live
     ABOUT              
   -----------------------------------------*/
   .about-section {
-    background: rgb(80,75,144);
-    background: linear-gradient(90deg, rgba(80,75,144,0.9177870977492559) 17%, rgba(144,75,75,0.9177870977492559) 30%, rgba(2,0,36,0.5284313554523372) 43%, rgba(0,212,255,0.6404761733795081) 58%, rgba(50,222,51,1) 73%, rgba(226,255,0,0.5536414394859506) 87%);
+  
+    /* background: linear-gradient(90deg, rgba(80,75,144,0.9177870977492559) 17%, rgba(144,75,75,0.9177870977492559) 30%, rgba(2,0,36,0.5284313554523372) 43%, rgba(0,212,255,0.6404761733795081) 58%, rgba(50,222,51,1) 73%, rgba(226,255,0,0.5536414394859506) 87%); */
   }
   
   .about-image {

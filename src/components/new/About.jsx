@@ -28,19 +28,16 @@ export default function About() {
       };
     }, []);
   
-    const backgroundImageStyle = {
-      color: isAtBottom ? 'transparent' :`hsl(${scrollPercentage}, 50%, 50%)`, };
-  
 
 
 
 
     return (
-        <section className="section-animation about-section section-padding" id="about">
-            <div className="container">
+        <section className=" section-animation about-section section-padding" id="about">
+            <div className="bg-35 container">
                 <div className="row">
 
-                    <div className="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                    <div className="col-lg-6 col-12 mb-4 mb-lg-0 flex align-items-center">
                         <div className="services-info">
                             <h2 className="text-white mb-4">About</h2>
 
