@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useRef, useEffect, useState } from 'react';
+
 import './css/abouts.css'
 import './css/bootstrap.min.css'
 // import './css/bootstrap-icons.css'
@@ -6,28 +7,28 @@ import { images } from './Images'
 import data from '../../magandabio';
 
 export default function About() {
+    const img2 = useRef(null);
+    const [isInViewport, setIsInViewport] = useState(false);
 
-
-    const [scrollPercentage, setScrollPercentage] = React.useState(0);
-    const [isAtBottom, setIsAtBottom] = React.useState(false);
-   
-  
-    const handleScroll = () => {
-      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const currentScroll = window.scrollY;
-      const scrollPercentage = (currentScroll / scrollHeight) * 100;
-     setIsAtBottom(currentScroll === scrollHeight)
-  
-      setScrollPercentage(scrollPercentage);
+    const handleIntersection = (entries) => {
+        const entry = entries[0];
+        setIsInViewport(entry.isIntersecting);
     };
-  
-    React.useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
+
+    useEffect(() => {
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5, // Adjust this threshold based on your needs (0.5 means at least 50% of the target is visible)
+        };
+
+        const observer = new IntersectionObserver(handleIntersection, options);
+        observer.observe(img2.current);
+
+        return () => {
+            observer.disconnect();
+        };
     }, []);
-  
 
 
 
@@ -42,7 +43,7 @@ export default function About() {
                             <h2 className="text-white mb-4">About</h2>
 
                             <p className="text-white">
-                              {data.introduction}
+                                {data.introduction}
                             </p>
 
                             <h6 className="text-white mt-4">Once in Lifetime Experience</h6>
@@ -59,9 +60,7 @@ export default function About() {
 
                     <div className="col-lg-6 col-12">
                         <div className="about-text-wrap">
-                            <img src={images} className="about-image img-fluid" />
-
-                            
+                            <img src={images} ref={img2} className={`about-image img-fluid ${isInViewport ? 'in-view' : 'below'}`} />
                         </div>
                     </div>
 
@@ -71,7 +70,7 @@ export default function About() {
 
 
     )
-   
+
 
 
 }

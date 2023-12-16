@@ -38,14 +38,17 @@ export default function Home() {
       </div>
       <hr />
       </div>
-      <ReactPlayer
+      {/* <ReactPlayer
         className="react-player"
         url={videoSource}
-        playing={true}
+        // playing={true}
         loop={true}
         muted={true}
         // controls={true}
-      />
+      /> */}
+      {/* <div className="react-player">
+        <img src={profile} alt="LALALALA" />
+      </div> */}
     </section>
   );
 }
