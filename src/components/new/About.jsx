@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import './css/abouts.css'
 import './css/bootstrap.min.css'
 // import './css/bootstrap-icons.css'
-import { images } from './Images'
+import allimages, { images } from './Images'
 import data from '../../magandabio';
 
 export default function About() {
@@ -60,7 +60,7 @@ export default function About() {
 
                     <div className="col-lg-6 col-12">
                         <div className="about-text-wrap">
-                            <img src={images} ref={img2} className={`about-image img-fluid ${isInViewport ? 'in-view' : 'below'}`} />
+                            <img src={allimages[14]} ref={img2} className={`about-image img-fluid ${isInViewport ? 'in-view' : 'below'}`} />
                         </div>
                     </div>
 

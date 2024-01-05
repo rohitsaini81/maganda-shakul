@@ -5,7 +5,7 @@
     background: black;
     padding: 21px;
 }
-body{
+.body{
     background: url("https://images.unsplash.com/photo-1541323421480-68513be3d209?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3J1bmdlJTIwdGV4dHVyZXxlbnwwfHwwfHx8MA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +16,7 @@ body{
 
 .below {
     transform: translate3d(0, 90px, 0);
+    transition: transform 300ms ease, opacity 300ms ease;
 }
 
 .about-image.in-view {

@@ -3,7 +3,9 @@ import ReactPlayer from 'react-player';
 import './css/home.css';
 import { profile } from './new/Images';
 // import VideoPlayer from 'react-video-js-player';
-const videoSource = 'https://auto-system.onrender.com/files/video1.mp4'
+// import { drumvideo } from './new/Images';
+const videosource = 'https://youtu.be/LQV_j47pjUQ?si=AwpXVHZMra-0slIC'
+
 
 
 export default function Home() {
@@ -14,8 +16,8 @@ export default function Home() {
       <div className="overlap">
         <div className="group-2">
           <div className="hi-i-am">
-            Hi, I am
-            <br />
+            {/* Hi, I am
+            <br /> */}
             Maganda Shakul 
           </div>
           <div className="text-wrapper-5">Musician, Artist, Designer</div>
@@ -38,14 +40,14 @@ export default function Home() {
       </div>
       <hr />
       </div>
-      {/* <ReactPlayer
+      <ReactPlayer
         className="react-player"
-        url={videoSource}
+        url={videosource}
         // playing={true}
         loop={true}
         muted={true}
         // controls={true}
-      /> */}
+      />
       {/* <div className="react-player">
         <img src={profile} alt="LALALALA" />
       </div> */}
