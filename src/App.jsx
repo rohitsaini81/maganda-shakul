@@ -26,11 +26,11 @@ export const App = () => {
       <Album />
       <Gallery />
       {/* <About /> */}
-        {/* <Skills /> */}
-        <Contact />
-        {/* <Bio /> */}
-        {/* <Info /> */}
-        {/* <Contactt /> */}
+      {/* <Skills /> */}
+      <Contact />
+      {/* <Bio /> */}
+      {/* <Info /> */}
+      {/* <Contactt /> */}
 
 
     </div>
