@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import ReactPlayer from 'react-player';
 import './css/home.css';
 import { profile } from './new/Images';
@@ -7,23 +7,9 @@ import { profile } from './new/Images';
 const videosource = 'https://auto-system.onrender.com/files/drumvideo.mp4'
 
 export default function Home() {
-  const settingdiv = useRef(null);
-  const settingclick = () => {
-    alert("Welcome")
-    settingdiv.current.style.display = 'none';
-  }
-
 
   return (
     <section id='home'>
-      <div className="settings" ref={settingdiv} onClick={settingclick} style={{
-        position: 'relative',
-         left: '500px', 
-         height: "50px",
-          width: "100px", 
-          backgroundColor: 'red'
-      }}>
-        settings</div>
       <div className='home'>
         <div className="overlap">
           <div className="group-2">
@@ -56,7 +42,7 @@ export default function Home() {
           />
         </div>
         <div className="wrapper">
-          <img src={profile} alt="its me" className="img" />
+          <img src={profile} alt="its me" className="img img-filter" />
         </div>
         <hr />
       </div>
