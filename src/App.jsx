@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import './components/css/background.css'
 import Nav from "./nav/Nav";
@@ -10,12 +10,15 @@ import Album from "./components/css/Album";
 
 
 export const App = () => {
-
-
-
-
+// function body pele empty thi
+ 
   return (
     <div className="div">
+
+      {/*  */}
+   
+
+      {/*  */}
       <Nav />
       <Home />
       <About />

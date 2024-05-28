@@ -30,9 +30,9 @@ export default function Gallery() {
                                     className="artists-image img-fluid" />
                             </div>
 
-                            <div className="artists-hover">
+                            {/* <div className="artists-hover">
 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     
@@ -43,24 +43,23 @@ export default function Gallery() {
                                 <img src={allimages[14]}
                                     className="artists-image img-fluid" />
                             </div>
-
+{/* 
                             <div className="artists-hover">
 
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="artists-thumb">
                             <img src={allimages[12]}
                                 className="artists-image img-fluid" />
 
-                            <div className="artists-hover">
-
+                            {/* <div className="artists-hover">
 
                                 <p className="mb-0">
-                                    {/* <strong>Youtube Channel:</strong>
-                                    <a href="#">Bruno Official</a> */}
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="#">Bruno Official</a> 
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

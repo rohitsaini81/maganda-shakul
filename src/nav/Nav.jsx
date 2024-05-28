@@ -34,7 +34,9 @@ export default function Nav() {
         <a href='#about'><div className="text-wrapper-2 my-btn">About me</div></a>
         <a href='#section_3'><div className="text-wrapper-2 my-btn">Gallery</div></a>
         <a href='#contacts'><div className="text-wrapper-2 my-btn">Contact me</div></a>
+        <a href='/blog-post'><div className="text-wrapper-2 my-btn">Blogs</div></a>
       </div>
     </div>
   );
 }
+
